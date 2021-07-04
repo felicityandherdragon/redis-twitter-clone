@@ -1,0 +1,31 @@
+{
+  "name": "redis-twitter-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felicityandherdragon/redis-twitter-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felicityandherdragon/redis-twitter-clone/issues"
+  },
+  "homepage": "https://github.com/felicityandherdragon/redis-twitter-clone#readme",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "express": "^4.17.1",
+    "pug": "^3.0.2",
+    "redis": "^3.1.2",
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
